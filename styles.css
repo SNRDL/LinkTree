@@ -58,4 +58,13 @@ main{
     nav a:hover{
         background-color: rgba(216, 68, 68, 0.87);
     }
-   
+@media(max-width: 600px){
+    main{
+        position: relative;
+        left: 45%;
+        top: 50%;        
+        width: 80vw;
+        height: 200vw;
+    }
+
+}
